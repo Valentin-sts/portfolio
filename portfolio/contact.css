@@ -1,0 +1,11 @@
+.container > .right-side {
+    display : flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    width : 80%;
+    height :100vh;
+    color: #fff;
+    margin-top: -3%;
+    margin-left: 12%;
+}

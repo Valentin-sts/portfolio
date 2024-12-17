@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>VAUTIER Valentin | Portfolio</title>
+        <link rel="stylesheet" href="../css/portfolio.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Rajdhani&family=Teko&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-side">
+                <div class="nav">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-house-user"></i>
+                            <a href="../index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user-circle"></i>
+                            <a href="about.html">A propos de moi</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-images"></i>
+                            <a href="/html/portfolio.html">Portfolio</a>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="contact.php">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="project-container">
+                    <div class="project" id="project1">
+                        <img src="..\img\image.png">
+                        <div class="text-container">
+                            <h2>Projet XXXXX</h2>
+                            <div class="button open-button"  onclick="openForm()">
+                                <p>Plus de détails</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project" id="project2">
+                        <img src="..\img\image.png">
+                        <div class="text-container">
+                            <h2>Projet XXXXX</h2>
+                            <div class="button open-button"  onclick="openForm()">
+                                <p>Plus de détails</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project" id="project3">
+                        <img src="..\img\image.png">
+                        <div class="text-container">
+                            <h2>Projet XXXXX</h2>
+                            <div class="button"  onclick="openForm()">
+                                <p>Plus de détails</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project" id="project4" >
+                        <img src="..\img\image.png">
+                        <div class="text-container">
+                            <h2>Projet XXXXX</h2>
+                            <div class="button open-button"  onclick="openPopup1()">
+                                <p>Plus de détails</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup">
+                    <div class="popup-container" id="popup1">
+                        <a onclick="closeForm()"><i class="fa-solid fa-circle-xmark"></i><a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+    <script src="https://kit.fontawesome.com/f7632788f8.js" crossorigin="anonymous"></script>
+    <script>
+        function openPopup1() {
+            document.getElementById("popup1").style.display = "block";
+            document.getElementById("project4").style.display ="none";
+            document.getElementById("project3").style.display ="none";
+            document.getElementById("project2").style.display ="none";
+            document.getElementById("project1").style.display ="none";
+        }
+
+        function closeForm() {
+            document.getElementById("popup1").style.display = "none";
+            document.getElementById("project4").style.display ="flex";
+            document.getElementById("project3").style.display ="flex";
+            document.getElementById("project2").style.display ="flex";
+            document.getElementById("project1").style.display ="flex";
+        }
+    </script>
+</html>
+        

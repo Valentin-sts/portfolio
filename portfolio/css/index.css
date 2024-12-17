@@ -1,0 +1,28 @@
+
+.container > .right-side {
+    display : flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    width : 100%;
+    height :100vh;
+    color: #fff;
+    left : 0;
+}
+
+.container > .right-side > .picture-container > img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.container > .right-side > .text-container > h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.container > .right-side > .text-container > p{
+    font-size: 28px;
+    letter-spacing: 2px;
+    
+}

@@ -1,0 +1,17 @@
+{
+    "name": "igorw/json",
+    "autoload": {
+        "psr-4": {
+            "Igorw\\Json\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KilianL55",
+            "email": "79110244+KilianL55@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
