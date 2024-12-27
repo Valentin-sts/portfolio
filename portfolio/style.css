@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header p {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+
+  nav {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #1abc9c;
+  }
+  
+ 
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 1200px;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+
+  .competence {
+    margin-bottom: 20px;
+  }
+  
+  .competence p {
+    font-size: 16px;
+  }
+  
+  .competence-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    width: 70%;
+    height: 20px;
+  }
+  
+  .skill-bar-fill {
+    background-color: #4CAF50;
+    height: 100%;
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+    line-height: 20px;
+    padding-left: 10px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+
+  .certification {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #ccc;
+  }
+  
+  .certification img {
+    display: block;
+    margin: 10px 0;
+    width: 120px;
+  }
+  
+  .certification a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .certification a:hover {
+    text-decoration: underline;
+  }
+  
+
+  #changeColorButton, #resetColorButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #changeColorButton:hover, #resetColorButton:hover {
+    background-color: #45a049;
+  }
+  
+
+  @media (max-width: 768px) {
+    .competence-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .photo-profil {
+      width: 100px;
+    }
+  
+    .portfolio-image {
+      max-width: 40%;
+    }
+  
+    .social-links a {
+      display: inline-block;
+      margin: 5px;
+    }
+    
+    
+  }
+  
