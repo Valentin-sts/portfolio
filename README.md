@@ -7,8 +7,11 @@ Ce projet est un portfolio web simple, développé avec HTML, CSS et PHP. Il per
 
 # PORTFOLIO/
 ├── img/              # Dossier contenant les images utilisées dans le site
+
 ├── index.php         # Page d'accueil principale du portfolio
+
 ├── style.css         # Fichier de style pour la mise en page et la conception
+
 ├── README.md         # Documentation sur le projet
 
 🚀 Fonctionnalités principales
